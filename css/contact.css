@@ -1,0 +1,87 @@
+
+/* -------------- CONTACT SECTION -------------- */
+
+
+/* ------ FORM ------  */
+h2 {
+  margin: 15px;
+  font-size: 2rem;
+  text-align: center;
+
+  background: linear-gradient(90deg, var(--main-blue) 0%, var(--main-purple) 100%);
+  background-clip: text;
+
+  color: transparent;
+  text-shadow: 0px -1px 1px rgba(255, 255, 255, 0.4);
+}
+
+.contact-form__container {
+  width: 95%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  
+  background-color: var(--light-purple);
+  border-radius: 5px;
+  
+  text-align: center;
+}
+
+.contact-form {
+}
+
+.contact-form__div{
+  background-color: aquamarine;
+  margin: 1px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form label {
+  display: inline-block;
+  width: 90px;
+}
+
+
+.contact-form input {
+  display: inline-block;
+  width: 140px;
+  margin: 2px auto 20px;
+  padding: 8px;
+
+  background-color: gray;
+  border-radius: 5px;
+  font-size: 12px;
+  outline: none;
+  transition: .2s;
+}
+
+.contact-form input:hover {
+  font-size: 12px;
+  background-color: rgb(110, 110, 110);
+  transform: scale(1.02);  
+}
+
+
+.contact-form .form-btn {
+  width: 150px;
+  margin-top: 15px;
+  padding: 6px;
+  background-color: gray;
+  border-radius: 5px;
+  color: rgba(0, 0, 0, .5);
+  font-size: 15px;
+
+  transition: .2s;
+}
+
+.contact-form .form-btn:hover {
+  background-color: rgb(110, 110, 110);
+  transform: scale(1.02); 
+}
+
+.contact-form .form-btn:active {
+  background-color: var(--dark);
+}

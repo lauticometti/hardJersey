@@ -1,0 +1,42 @@
+.slogan-paragraph {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+/* ----- PARAGRAPH ----- */
+
+.header-description {
+  margin: 10px 30px;
+  font: 500 1rem rubik, sans-serif;
+  text-align: center;
+}
+
+.header-description .purple-phrase {
+  color: var(--medium-purple);
+}
+
+.header-description .purple-phrase:hover {
+  color: var(--hover-purple);
+  display: inline-block;
+  transform:translateY(-0.3px);
+  transition: ease-out .4s;
+
+}
+
+.header-description .purple-phrase:active {
+  color: var(--main-purple);
+}
+
+
+
+
+/* -------------- MAIN PAGE CAROUSEL --------------- */
+
+.main-page-carousel {
+  background: #fff;
+  height: 150px;
+  text-align: center;
+
+  margin: 25px 0;
+}
